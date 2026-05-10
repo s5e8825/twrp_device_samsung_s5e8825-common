@@ -15,6 +15,6 @@
 #
 
 # Inherit from common tree
-$(call inherit-product, device/samsung/s5e8825-common/s5e8825.mk)
+$(call inherit-product, device/samsung/s5e8825-common/common.mk)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/s5e8825-common/m34x/init,recovery/root)

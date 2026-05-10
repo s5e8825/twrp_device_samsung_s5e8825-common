@@ -15,4 +15,4 @@
 #
 
 # Inherit from common tree
-$(call inherit-product, device/samsung/s5e8825-common/s5e8825.mk)
+$(call inherit-product, device/samsung/s5e8825-common/common.mk)
