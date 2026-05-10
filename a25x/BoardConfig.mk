@@ -16,7 +16,6 @@
 
 DEVICE_PATH := device/samsung/s5e8825-common/a25x
 
-BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/recovery_dtbo
 
 DEVICE_CODENAME := a25x
 

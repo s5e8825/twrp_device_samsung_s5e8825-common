@@ -37,4 +37,13 @@ PRODUCT_PACKAGES += shrink_common bxhsed_common
 PRODUCT_PACKAGES += \
     charger_res_images
 
+KERNEL_PREBUILT_PATH ?= device/samsung/s5e8825-kernel
+KERNEL_MODULES_PATH := $(KERNEL_PREBUILT_PATH)/modules
+ifneq ($(wildcard $(KERNEL_MODULES_PATH)/lib/modules),)
+KERNEL_MODULES_PATH := $(KERNEL_MODULES_PATH)/lib/modules
+endif
+ifneq ($(wildcard $(KERNEL_MODULES_PATH)),)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(KERNEL_MODULES_PATH),recovery/root/lib/modules)
+endif
+
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/s5e8825-common/recovery/root,recovery/root)
