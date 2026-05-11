@@ -1,0 +1,2 @@
+on early-fs && property:ro.boot.em.model=SM-E346B
+    setprop ro.product.device f34x
