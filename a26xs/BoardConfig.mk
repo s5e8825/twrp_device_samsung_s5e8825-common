@@ -24,6 +24,13 @@ include device/samsung/s5e8825-common/BoardConfigCommon.mk
 
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+
+# OrangeFox screen settings
+OF_SCREEN_H := 2340
+OF_STATUS_H := 100
+OF_STATUS_INDENT_LEFT := 48
+OF_STATUS_INDENT_RIGHT := 48
+
 # TWRP specific build flags
 # TW_DEVICE_VERSION := Samsung Galaxy A26 5G (M)
 TW_FRAMERATE := 120
