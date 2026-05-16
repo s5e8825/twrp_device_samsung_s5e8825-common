@@ -23,7 +23,7 @@ $(call inherit-product, device/samsung/s5e8825-common/a25x/device.mk)
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := twrp_a25x
 PRODUCT_DEVICE := a25x
-PRODUCT_MODEL := SM-A256E
+PRODUCT_MODEL := Galaxy A25 5G
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung

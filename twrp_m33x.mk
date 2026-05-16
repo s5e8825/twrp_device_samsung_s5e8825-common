@@ -23,7 +23,7 @@ $(call inherit-product, device/samsung/s5e8825-common/m33x/device.mk)
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := twrp_m33x
 PRODUCT_DEVICE := m33x
-PRODUCT_MODEL := SM-M336B
+PRODUCT_MODEL := Galaxy M33 5G
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
